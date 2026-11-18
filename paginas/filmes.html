@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Filmes</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main class="conteudo-filmes">
+        <header class="apresentacao">
+            <h1>Filmes</h1>
+
+            <p>Criticas cinematográficas feitas por duas pessoas que juntas<br>somam um total de 0 conhecimento tecnico do assunto</p>
+
+        </header>
+
+
+        <nav class="navegacao-topo">
+        <a href="../index.html" class="voltar-inicio">
+            ← Voltar ao início
+        </a>
+        <p><br></p>
+        </nav>
+
+    <section class="ferramentas-filmes">
+
+        <div class="campo-pesquisa">
+            <input
+                type="text"
+                id="pesquisa-filmes"
+                placeholder="Pesquisar um filme..."
+            >
+        </div>
+
+        <div class="controles-filmes">
+
+            <div class="ordenacao">
+                <label for="ordenar-filmes">Organizar por:</label>
+
+                <select id="ordenar-filmes">
+                    <option value="nome-az">Nome (A–Z)</option>
+                    <option value="nome-za">Nome (Z–A)</option>
+                    <option value="nota-maior">Maior média</option>
+                    <option value="nota-menor">Menor média</option>
+                    <option value="ano-recente">Mais recentes</option>
+                    <option value="ano-antigo">Mais antigos</option>
+                </select>
+            </div>
+
+            <p id="contador-filmes"></p>
+
+        </div>
+
+    </section>
+
+    <section class="lista-filmes">
+     
+        <div class="item-filme aultimacasa">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>A Última Casa</h2>
+
+                <p>2026 · Terror / Ficção científica</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">6.5</span>
+
+                    <p class="comment">
+                        Bom enredo e a ideia é muito boa, mas no último terço do filme o roteiro se perde com muita correria e transformando os personagens em pessoas burras para fingir tensão.
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/lasthouse.jfif"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">6</span>
+
+                    <p class="comment">
+                        Bom o filme se propõe a ser de terror mas não consegue ter muito êxito, eu até gosto de todo suspense que é construído através do fato de todos estarem presos e das criaturas serem desconhecidas, mas isso cai por terra na segunda metade do filme, assim que as criaturas aparecem toda aquela expectativa é quebrada, e o desfecho do filme é muito rápido e fácil, eles tranquilamente são libertos por todas as criaturas pq uma delas quis assim?? Além do fato das criaturas serem muito pouco exploradas, a explicação que aparece sobre elas é rasa e nem os próprios personagens valorizam quando acontece. Porém temos uma atuação impecável do Wagner Moura e da Greta Lee, ver como a família deles se reinventa pra conseguir sobreviver no meio de todo caos e bem interessante.
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>        
+
+        <div class="item-filme aodisseia">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>A Odisseia</h2>
+
+                <p>2026 · Ação / Fantasia</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">8</span>
+
+                    <p class="comment">
+                        Bem fiel a leitura original, Nolan é um baita diretor, não tem muito o que falar, só é bom mesmo.
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/odisseia.jfif"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">5</span>
+
+                    <p class="comment">
+                        "Vou ficar devendo porque dormi no filme 👍"
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+        <div class="item-filme agentesecreto">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>O Agente Secreto</h2>
+
+                <p>2025 · Thriller Político / Drama</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">8</span>
+
+                    <p class="comment">
+                        Filme bom e ambientação brasileira dos anos 70 impecável, mas copiaram Assassin's Creed na cara dura
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/agentesecreto.webp"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">9</span>
+
+                    <p class="comment">
+                        É até difícil saber por onde começar a falar desse filme, uma obra brasileira rica em história e significado, pq é sempre importante relembrar a nossa história para que ela nunca seja apagada ou esquecida, e o filme passa essa mensagem perfeitamente. A ambientação dos cenários é impecável (adoro as cenas que mostram estradas, pq dá pra ver vários carros antigos andando juntos), a trilha sonora também é muito boa. Adoro a forma como o diretor passa mensagens sobre a época da ditadura com simbolismos únicos,  como o gato de duas cabeças, ou a perna cabeluda. Em resumo é um filme extremamente bem feito e importante, é maravilhoso ver a visibilidade que o cinema brasileiro conquistou e está conquistando!
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+        <div class="item-filme backrooms">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>Backrooms: Um Não Lugar</h2>
+
+                <p>2026 · Terror / Ficção científica</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">7</span>
+
+                    <p class="comment">
+                        Não é nenhum marco do cinema contemporâneo, o cenário talvez seja a melhor coisa do filme, mas é bem divertido de assistir. É um conceito legal, principalmente se você já conhece o universo da internet..
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/backrooms.webp"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">7</span>
+
+                    <p class="comment">
+                        No quesito cenário o filme é muito bem construído, tudo dentro das backrooms foi muito bem pensado pra fazer jus as expectativas criadas, as salas totalmente amarelas, os objetos distorcidos que fazem referência ao mundo real e as dúvidas que o filme constrói através de algo desconhecido, realmente fazem o seu papel de deixar o telespectador desconfortável. Já no quesito história o filme só acontece pela junção de fatores, dois adolescentes inconsequentes, uma psicóloga totalmente antiética e um homem mal resolvido com a própria vida, sozinho e deprimido ao ponto de estar prestes a ter um colapso ( oq realmente acontece), sem isso a história acabaria em meia hora. Gosto muito da forma como eles colocam as "pessoas" que são cópias, principalmente o Monstro do final do filme, as distorções corporais que ficam entre o bizarro e o conhecido por nós me ganham muito.
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+        <div class="item-filme homemaranhanovodia">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>Homem Aranha: Um Novo Dia</h2>
+
+                <p>2026 · Ação / Ficção científica</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">8.5</span>
+
+                    <p class="comment">
+                        Definitivamente o melhor filme do Tom Holland, quase nem parece um filme de heroi (isso é um elogio). <BR>E A TRILHA SONORA É UM ABSURDO!
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/spider-newday.jpg"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">8.5</span>
+
+                    <p class="comment">
+                        Um filme muito bom, a forma como ele se aprofunda no personagem e na fase que ele tá vivendo é muito bem construída, mostrando a parte mais humana do super-herói, oq é algo muito importante no homem aranha, é essa identificação que faz todos amarem ele. Gostei da maneira como introduziram a Jean Gray no universo, dando um contexto pra história dela e também como os seus poderes despertaram. Agora o mais interessante de se acompanhar durante o filme é o amadurecimento de ambos os personagens, mais voltado pro Peter, porém a forma como eles chegam em um denominador comum para o sofrimento e angústia que ambos estavam vivendo em suas vidas (de maneiras distintas, claro) é muito bonito de se assistir.<br>Ps: A fotografia do filme é linda, e muito bem trabalhada, me peguei admirando durante muitas cenas.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+        <div class="item-filme obosqueselvagem">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>O Bosque Selvagem</h2>
+
+                <p>2026 · Aventura / Fantasia Sombria</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">9</span>
+
+                    <p class="comment">
+                        Animação bizarra de bem feita, principalmente a cena da guerra, porém o filme é muito corrido, se fosse uma série de 5 episódios seria um 10.
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/wildwoods.jfif"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">9.5</span>
+
+                    <p class="comment">
+                        Animação e história impecáveis, é lindo ver que uma arte tão trabalhosa como o stop motion ainda esteja presente nos cinemas. Só não recebeu um 10 por que achei o desenvolvimento da história um pouco corrido, porém entendo que uma história com tanta riqueza de detalhes tinha que ser mais objetiva para caber em um filme só.
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+        <div class="item-filme ponteparaterabitia">
+        <article class="cartao-filme">
+
+            <header class="cabecalho-cartao">
+                <h2>Ponte para Terabítia</h2>
+
+                <p>2007 · Aventura / Drama</p>
+            </header>
+
+
+            <div class="conteudo-cartao">
+
+                <!-- MINHA AVALIAÇÃO -->
+                <div class="avaliacao-filme avaliacao-minha">
+
+                    <h3>Nota do Leo</h3>
+
+                    <span class="nota-filme minha-nota">8</span>
+
+                    <p class="comment">
+                        Minha maior vigarisse foi fazer a Nataly assistir esse filme falando que era um romance adolescente tranquilo    sendo que eu ja tinha visto o filme antes.<br><br><b>MUAHAHAHAHAHAHAHAHA</b>
+                    </p>
+
+                </div>
+
+
+                <!-- PÔSTER -->
+                <div class="poster-filme">
+
+                    <img
+                        src="../assets/imagens/filmes/TERABITIA.jpg"
+                        alt="Pôster do filme"
+                    >
+
+                </div>
+
+
+                <!-- AVALIAÇÃO DELA -->
+                <div class="avaliacao-filme avaliacao-dela">
+
+                    <h3>Nota da Naty</h3>
+
+                    <span class="nota-filme nota-dela">8</span>
+
+                    <p class="comment">
+                        O filme é muito bonito, duas crianças que ficam mais isoladas seja na família ou na escola encontram uma forma de fugir da realidade e encontrar um refúgio em sua amizade e imaginação. A forma como o filme retrata todos os desafios e brincadeiras que eles fazem em terabítia é muito fofa, passa essa vibe de voltar a infância. Infelizmente o personagem principal e obrigado a voltar pra realidade e se depara com a finitude da vida..., ver uma criança tendo que passar pelo luto tão cedo é muito triste. A cena final de ele fazendo uma ponte para que a irmã dele possa ir brincar com ele e nunca se machucar é LINDA.
+                    </p>
+
+                </div>
+
+            </div>
+        
+
+            <!-- MÉDIA DO CASAL -->
+            <footer class="media-filme">
+
+                <span>MÉDIA DO CASAL</span>
+
+                <strong class="media-casal">0,00 / 10</strong>
+
+            </footer>
+
+        </article>
+        </div>
+
+
+    </section>
+
+
+
+        <nav class="navegacao-bot">
+        <a href="../index.html" class="voltar-inicio">
+            ← Voltar ao início
+        </a>
+        </nav>
+        <p><br><br><br><br><br></p>
+    </main>
+
+    <script src="../js/filmes.js"></script>
+
+</body>
+</html>
